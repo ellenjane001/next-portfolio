@@ -1,0 +1,21 @@
+.main {
+    h1 {
+        font-family: Arial, sans-serif;
+        color: #1890ff;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.span {
+    color: #5F6368;
+    font-family: Arial, sans-serif;
+}
+
+.link {
+    color: #202124;
+    font-family: Arial, sans-serif;
+
+}
