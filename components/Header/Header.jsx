@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <header className={Styles.header}>
     <div className={Styles.header__logo}>
-        <Image src={'/logo.svg'} width={100} height={50} alt="logo" />
+        <Image src={'./logo.svg'} width={100} height={50} alt="logo" />
     </div>
     <div className={Styles.wrapper}>
         <div>
@@ -20,7 +20,7 @@ const Header = () => {
             />
         </div>
         <div>
-            <Avatar src="/avatar.png" />
+            <Avatar src="./avatar.png" />
         </div>
     </div>
 </header>
