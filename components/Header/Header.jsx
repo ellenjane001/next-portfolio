@@ -1,7 +1,6 @@
 import { Avatar, Input } from 'antd';
 import Image from 'next/image';
 import React from 'react';
-
 import Styles from '../../styles/Header.module.scss';
 const { Search } = Input;
 

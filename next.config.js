@@ -4,7 +4,8 @@ const nextConfig = {
   swcMinify: true,
   images: {
     domains: ['img.icons8.com'],
-  }
+  },
+  basePath: '/next-portfolio'
 }
 
 module.exports = nextConfig
