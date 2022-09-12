@@ -9,34 +9,32 @@ const Main = () => {
   const onChange = (key) => {
     console.log(key);
 }
+const items = [
+    { label: 
+    <span>
+        <HomeFilled />
+        Home
+    </span>, 
+    key: '1', 
+    children:<Home /> },
+    { label:  
+    <span>
+        <ToolFilled />
+        Skills
+    </span>,
+    key: '2',
+    children:  <Skills /> },
+    { label:  
+    <span>
+        <CalendarFilled />
+        Job Experiences
+    </span>,
+    key: '3',
+    children: <JobExp /> },
+  ];
 return (
     <nav className={Styles.navigation}>
-        <Tabs defaultActiveKey="1" onChange={onChange}>
-            <TabPane tab={
-                <span>
-                    <HomeFilled />
-                    Home
-                </span>
-            } key="1">
-                <Home />
-            </TabPane>
-            <TabPane tab={
-                <span>
-                    <ToolFilled />
-                    Skills
-                </span>
-            } key="2">
-                <Skills />
-            </TabPane>
-            <TabPane tab={
-                <span>
-                    <CalendarFilled />
-                    Job Experiences
-                </span>
-            } key="3">
-                <JobExp />
-            </TabPane>
-        </Tabs>
+        <Tabs items={items} onChange={onChange} />
     </nav>
 )
 }
