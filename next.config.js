@@ -5,7 +5,7 @@ const nextConfig = {
   images: {
     domains: ['img.icons8.com', 'gw.alipayobjects.com'],
   },
-  basePath: '/next-portfolio'
+  // basePath: '/next-portfolio'
 }
 
 module.exports = nextConfig
